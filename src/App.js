@@ -6,7 +6,7 @@ import firebase from 'firebase';
 import reducers from './reducers';
 
 class App extends Component {
-  componentWillMount(){
+  componentWillMount() {
     const config = {
     apiKey: 'AIzaSyACMrot0c1R8z-wGFkjI9--3otuYbaNnxY',
     authDomain: 'bossmanager-9c0bd.firebaseapp.com',
